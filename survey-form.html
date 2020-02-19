@@ -1,0 +1,140 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div class="container">
+  
+  <header class="header">
+    <h1 id="title">What are your thoughts?</h1>
+    <p id="description">Answer these questions to gain insight!</p>
+   </header>
+  
+   <form id="survey-form" action="submit">
+     <div class="form-group">
+       <label id="name-label" for="name">Name:</label>
+       <input 
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="What is your name?"
+          required
+        />
+     </div>
+     
+     <div class="form-group">
+       <label id="email-label" for="email">Email:</label>
+       <input 
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="What is your email?"
+          required
+       />
+     </div>
+     
+     <div class="form-group">
+       <label id="number-label" for="number">Age:</label>
+       <input 
+          type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Age"
+       />
+     </div>
+     
+     <div class="form-group">
+       <p>What is your current employment?</p>
+       <select id="dropdown" name="employment" class="form-control" required>
+         <option disabled selected value>Select current employment</option>
+         <option value="student">Student</option>
+         <option value="job">Full Time Job</option>
+         <option value="learner">Full Time Learner</option>
+         <option value="preferNo">Prefer not to say</option>
+         <option value="other">Other</option>
+       </select>
+     </div>
+     
+     <div class="form-group">
+       
+       <p>Would you recommend this to a friend?</p>
+       
+       <label>
+         <input 
+            name="user-recommend"
+            value="yes"
+            type="radio"
+            class="input-radio"
+         />Yes
+       </label>
+       
+       <label>
+         <input 
+            name="user-recommend"
+            type="radio"
+            value="maybe"
+            class="input-radio"
+         />Maybe
+       </label>
+       
+       <label>
+         <input
+            name="user-recommend"
+            type="radio"
+            value="probably-not"
+            class="input-radio"
+         />
+         Probably Not
+       </label>
+     </div>
+     
+     <div class="form-group">
+       <p>How did you hear about us? <span>(Check all that apply)</span></p>
+       
+       <label>
+         <input 
+            name="refferal"
+            type="checkbox"
+            value="the-nether-whispers"
+            class="input-checkbox"
+         />The Nether Whispers
+       </label>
+       
+       <label>
+         <input 
+            type="checkbox"
+            name="refferal"
+            value="the-data-theives"
+            class="input-checkbox"
+         />The Data Thieves
+       </label>
+       
+       <label>
+         <input 
+            type="checkbox"
+            name="refferal"
+            value="other-worldly-forces"
+            class="input-checkbox"
+         />Other Worldly Forces
+       </label>
+     </div>
+     
+     <div class="form-group">
+       <p>Leave thoughts or comments for cthulu? <span> (no one else will read them.)</span></p>
+       <textarea 
+             name="comment" 
+             id="comments" 
+             cols="30"
+             rows="10" 
+             class="input-textarea" 
+             placeholder="Enter your message here"
+       ></textarea>
+     </div>
+     
+     <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">Submit</button>  
+     </div>
+  </form>
+</div>
