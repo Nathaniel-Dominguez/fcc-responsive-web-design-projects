@@ -12,3 +12,6 @@ test them out on code pen
 
 ## Product Landing Page
 ### https://codepen.io/nathaniel-dominguez/pen/oNXzYqK
+
+## Technical Documentation
+### https://codepen.io/nathaniel-dominguez/pen/xxGEeLr
