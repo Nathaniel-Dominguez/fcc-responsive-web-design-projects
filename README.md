@@ -15,3 +15,6 @@ test them out on code pen
 
 ## Technical Documentation
 ### https://codepen.io/nathaniel-dominguez/pen/xxGEeLr
+
+## Personal Portfolio
+### https://codepen.io/nathaniel-dominguez/pen/WNvGBQw
